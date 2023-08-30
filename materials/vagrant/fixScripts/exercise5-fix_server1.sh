@@ -13,7 +13,7 @@ echo 'sshpass -p vagrant ssh-copy-id -o "StrictHostKeyChecking=no" -i /home/vagr
 #sshpass -p vagrant ssh-copy-id -o "StrictHostKeyChecking=no"  -i  /home/vagrant/.ssh/id_rsa.pub vagrant@192.168.60.10
 chown vagrant:vagrant /home/vagrant/sshing.sh
 chmod 774 /home/vagrant/sshing.sh
-chmod 774 /home/vagrant/sshing1.sh
+#chmod 774 /home/vagrant/sshing1.sh
 #chmod +x sshing.sh
 #eval(sleep 60 && /home/vagrant/sshing.sh) & disown;
 
